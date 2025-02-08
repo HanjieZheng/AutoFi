@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+
+.logo span {
+    color: #A3A3A3;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #FFD700;
+}
+
+/* Wallet button in top right */
+.wallet-button {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.wallet-button:hover {
+    background-color: #FFD700;
+    color: black;
+}

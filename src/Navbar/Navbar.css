@@ -13,7 +13,7 @@
 }
 
 .logo span {
-    color: #A3A3A3;
+    color: rgb(156, 2, 156);
 }
 
 .nav-links {
@@ -34,7 +34,6 @@
     color: #FFD700;
 }
 
-/* Wallet button in top right */
 .wallet-button {
     background-color: white;
     color: black;
@@ -50,3 +49,9 @@
     background-color: #FFD700;
     color: black;
 }
+
+.eth-price {
+    margin-left: 20px;
+    font-weight: bold;
+    color: #FFD700;
+  }

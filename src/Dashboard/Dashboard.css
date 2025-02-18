@@ -1,0 +1,28 @@
+.positive {
+  color: #00ff00; 
+  font-weight: bold;
+}
+
+.negative {
+  color: #ff0000; 
+  font-weight: bold;
+}
+
+.dashboard-container {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.market-info {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+.market-info p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}

@@ -7,22 +7,25 @@ import Docs from "./Doc/Doc";
 import Community from "./Community/Community";
 import Launch from "./Launch/Launch";
 import Footer from "./Footer/Footer";
-import WalletConnect from "./Wallet/WalletConnect";
-import "./App.css"; // Ensure global styles are applied
+import Dashboard from "./Dashboard/Dashboard"; 
+import "./App.css";
 
 const App = () => {
   return (
     <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/docs" element={<Docs />} />
-        <Route path="/community" element={<Community />} />
-        <Route path="/launch" element={<Launch />} />
-      </Routes>
-      <WalletConnect />
-      <Footer />
+      <div className="app-container">
+        <div className="background-overlay"></div> {}
+        <Navbar /> {}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/docs" element={<Docs />} />
+          <Route path="/community" element={<Community />} />
+          <Route path="/launch" element={<Launch />} />
+          <Route path="/dashboard" element={<Dashboard />} /> {}
+        </Routes>
+        <Footer />
+      </div>
     </Router>
   );
 };

@@ -13,8 +13,8 @@ const Navbar = () => {
         <li><Link to="/launch">Launch</Link></li>
         <li><Link to="/docs">Docs</Link></li>
         <li><Link to="/community">Community</Link></li>
+        <li><Link to="/dashboard">📊 Market Data</Link></li>
       </ul>
-      {/* Move Connect Wallet button inside Navbar */}
       <WalletConnect />
     </nav>
   );

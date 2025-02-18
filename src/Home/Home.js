@@ -9,7 +9,7 @@ const Home = () => {
         <p>AutoFi is a DeFi protocol leveraging AI to manage crypto assets efficiently.</p>
       </div>
 
-      {/* Extra content to allow scrolling */}
+      {}
       <div className="extra-content">
         <h2>Why Choose AutoFi?</h2>
         <p>AutoFi offers AI-powered solutions for optimizing DeFi investments.</p>

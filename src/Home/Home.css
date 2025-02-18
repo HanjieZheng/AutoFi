@@ -1,12 +1,12 @@
 .home-container {
-    min-height: 150vh; /* Ensures scrolling */
+    
+    min-height: 150vh; /* a;lows scrolling */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-/* Hero Section */
 .hero {
     text-align: center;
     margin-top: 100px;
@@ -24,9 +24,8 @@
     margin-top: 10px;
 }
 
-/* Extra content for scrolling */
 .extra-content {
-    margin-top: 100px;
+    margin-top: 200px;
     padding: 50px;
     text-align: center;
     background: rgba(255, 255, 255, 0.1);

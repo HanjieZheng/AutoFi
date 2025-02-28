@@ -1,28 +1,73 @@
+.dashboard-page {
+  background: #121212;
+  color: white;
+  padding: 30px 20px;
+  min-height: 100vh;
+}
+
+/* Same Sample Setup */
+.dashboard-section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 10px;
+}
+
+/* Transaction History */
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions-table th,
+.transactions-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.transactions-table th {
+  color: #aaa;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+/* PnL Dashboard */
+.pnl-container {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+
+.pnl-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.pnl-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pnl-table th,
+.pnl-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Color */
 .positive {
-  color: #00ff00; 
-  font-weight: bold;
+  color: #4ade80;
 }
 
 .negative {
-  color: #ff0000; 
-  font-weight: bold;
-}
-
-.dashboard-container {
-  text-align: center;
-  font-size: 1.5rem;
-  margin-top: 20px;
-}
-
-.market-info {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 20px;
-  border-radius: 10px;
-  display: inline-block;
-  text-align: left;
-}
-
-.market-info p {
-  font-size: 1.2rem;
-  margin: 10px 0;
+  color: #f87171;
 }

@@ -13,7 +13,7 @@ const Navbar = () => {
         <li><Link to="/launch">Launch</Link></li>
         <li><Link to="/docs">Docs</Link></li>
         <li><Link to="/community">Community</Link></li>
-        <li><Link to="/dashboard">📊 Market Data</Link></li>
+        <li><Link to="/dashboard">Dashboard</Link></li>
       </ul>
       <WalletConnect />
     </nav>

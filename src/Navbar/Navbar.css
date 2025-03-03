@@ -34,6 +34,17 @@
     color: #FFD700;
 }
 
+.app-link {
+    color: #FFD700 !important;
+    font-weight: bold;
+}
+
+.button-container {
+    min-width: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .wallet-button {
     background-color: white;
     color: black;
@@ -43,9 +54,33 @@
     font-size: 16px;
     border-radius: 5px;
     transition: background 0.3s ease, color 0.3s ease;
+    min-width: 150px;
+    white-space: nowrap;
+    text-align: center;
 }
 
 .wallet-button:hover {
+    background-color: #FFD700;
+    color: black;
+}
+
+.launch-button {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease, color 0.3s ease;
+    display: inline-block;
+    min-width: 150px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.launch-button:hover {
     background-color: #FFD700;
     color: black;
 }
@@ -54,4 +89,4 @@
     margin-left: 20px;
     font-weight: bold;
     color: #FFD700;
-  }
+}

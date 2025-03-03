@@ -51,7 +51,7 @@
     color: white;
   }
   
-  button {
+  .send-btn {
     padding: 8px 12px;
     background-color: #FFD700;
     border: none;
@@ -61,7 +61,8 @@
     transition: background 0.3s;
   }
   
-  button:hover {
+  .send-btn:hover {
     background-color: #ffcc00;
   }
+  
   

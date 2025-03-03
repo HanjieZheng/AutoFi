@@ -37,7 +37,7 @@ const AIChatbot = () => {
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
-        <button onClick={handleSendMessage}>Send</button>
+        <button className="send-btn" onClick={handleSendMessage}>Send</button>
       </div>
     </div>
   );

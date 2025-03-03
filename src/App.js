@@ -9,6 +9,7 @@ import Launch from "./Launch/Launch";
 import Footer from "./Footer/Footer";
 import Dashboard from "./Dashboard/Dashboard"; 
 import "./App.css";
+import AIChatbot from "./Chatbot/AIChatbot";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/docs" element={<Docs />} />
           <Route path="/community" element={<Community />} />
           <Route path="/launch" element={<Launch />} />
+          <Route path="/ai-chatbot" element={<AIChatbot />} />
           <Route path="/dashboard" element={<Dashboard />} /> {}
         </Routes>
         <Footer />

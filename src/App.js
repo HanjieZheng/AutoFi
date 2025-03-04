@@ -11,6 +11,7 @@ import Dashboard from "./Dashboard/Dashboard";
 import "./App.css";
 import AIChatbot from "./Chatbot/AIChatbot";
 
+
 const App = () => {
   return (
     <Router>

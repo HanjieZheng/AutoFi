@@ -10,6 +10,10 @@ import Footer from "./Footer/Footer";
 import Dashboard from "./Dashboard/Dashboard"; 
 import "./App.css";
 import AIChatbot from "./Chatbot/AIChatbot";
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 
 const App = () => {
   return (

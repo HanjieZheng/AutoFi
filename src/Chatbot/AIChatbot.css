@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .chatbot-container {
     max-width: 500px;
     margin: 50px auto;
@@ -65,3 +66,78 @@
     background-color: #ffcc00;
   }
   
+=======
+.ai-chat-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.chat-messages {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.chat-message {
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  border-radius: 15px;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.chat-message.user {
+  background-color: #505230;
+  margin-left: auto;
+}
+
+.chat-message.bot {
+  background-color: #444;
+  margin-right: auto;
+}
+
+.message-text {
+  color: #fff;
+}
+
+.chat-input {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #333;
+  background-color: #1a1a1a;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.chat-input input:focus {
+  outline: none;
+}
+
+.chat-input button {
+  margin-left: 10px;
+  padding: 0 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background-color: #666;
+}
+>>>>>>> origin/master
